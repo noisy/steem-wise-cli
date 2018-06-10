@@ -8,7 +8,7 @@
                     {
                         "rule": "weight",
                         "mode": "single_vote_weight",
-                        "min": 0,
+                        "min": -1000,
                         "max": 10000
                     },
                     {
@@ -27,13 +27,13 @@
         "voter": "lukmarcus",
         "rulesets": [
             {
-                "name": "Flaga na Polish",
+                "name": "Na wsparcie społeczności tagu #polish",
                 "rules": [
                     {
                         "rule": "weight",
                         "mode": "single_vote_weight",
-                        "min": -10000,
-                        "max": 0
+                        "min": -1000,
+                        "max": 10000
                     },
                     {
                         "rule": "tags",
@@ -55,7 +55,7 @@
                     {
                         "rule": "weight",
                         "mode": "single_vote_weight",
-                        "min": 0,
+                        "min": -1000,
                         "max": 10000
                     },
                     {
@@ -166,7 +166,7 @@
                     {
                         "rule": "weight",
                         "mode": "single_vote_weight",
-                        "min": 0,
+                        "min": -1000,
                         "max": 2500
                     },
                     {
@@ -174,6 +174,52 @@
                         "mode": "any",
                         "tags": [
                             "pl-kuchnia"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "voter": "fervi",
+        "rulesets": [
+            {
+                "name": "Na wsparcie polskiej spolecznosci tagu pl-artykuly",
+                "rules": [
+                    {
+                        "rule": "weight",
+                        "mode": "single_vote_weight",
+                        "min": -1000,
+                        "max": 5000
+                    },
+                    {
+                        "rule": "tags",
+                        "mode": "any",
+                        "tags": [
+                            "pl-artykuly"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "voter": "hallmann",
+        "rulesets": [
+            {
+                "name": "Na wsparcie polskiej spolecznosci tagu pl-tradycja",
+                "rules": [
+                    {
+                        "rule": "weight",
+                        "mode": "single_vote_weight",
+                        "min": -1000,
+                        "max": 5000
+                    },
+                    {
+                        "rule": "tags",
+                        "mode": "any",
+                        "tags": [
+                            "pl-tradycja"
                         ]
                     }
                 ]
