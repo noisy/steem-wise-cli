@@ -1,0 +1,183 @@
+[
+    {
+        "voter": "jblew",
+        "rulesets": [
+            {
+                "name": "Zdrowie, Medycyna",
+                "rules": [
+                    {
+                        "rule": "weight",
+                        "mode": "single_vote_weight",
+                        "min": 0,
+                        "max": 10000
+                    },
+                    {
+                        "rule": "tags",
+                        "mode": "any",
+                        "tags": [
+                            "pl-zdrowie",
+                            "pl-medycyna"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "voter": "lukmarcus",
+        "rulesets": [
+            {
+                "name": "Flaga na Polish",
+                "rules": [
+                    {
+                        "rule": "weight",
+                        "mode": "single_vote_weight",
+                        "min": -10000,
+                        "max": 0
+                    },
+                    {
+                        "rule": "tags",
+                        "mode": "require",
+                        "tags": [
+                            "polish"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "voter": "nicniezgrublem",
+        "rulesets": [
+            {
+                "name": "Nauka, Technologia, Kosmos, Programowanie",
+                "rules": [
+                    {
+                        "rule": "weight",
+                        "mode": "single_vote_weight",
+                        "min": 0,
+                        "max": 10000
+                    },
+                    {
+                        "rule": "tags",
+                        "mode": "any",
+                        "tags": ["pl-nauka", "pl-technologia", "pl-kosmos", "pl-programowanie"]
+                    },
+                    {
+                        "rule": "authors",
+                        "mode": "deny",
+                        "authors": ["glodniwiedzy", "nicniezgrublem", "ocisly"]
+                    }
+               ]
+            },
+            {
+                "name": "Technocracy boost",
+                "rules": [
+                    {   
+                        "rule": "weight",
+                        "mode": "single_vote_weight",
+                        "min": 0,
+                        "max": 10000
+                    },
+                    {   
+                        "rule": "authors",
+                        "mode": "allow",
+                        "authors": ["technocracy"]
+                    }
+               ]
+
+            }
+        ]
+    },
+    {
+        "voter": "andrejcibik",
+        "rulesets": [
+            {
+                "name": "Graphics, Design, Webdesign",
+                "rules": [
+                    {
+                        "rule": "weight",
+                        "mode": "single_vote_weight",
+                        "min": 0,
+                        "max": 2000
+                    },
+                    {
+                        "rule": "tags",
+                        "mode": "any",
+                        "tags": ["graphics", "design", "webdesign"]
+                    }
+                ]
+            },
+            {
+                "name": "Self-Boost",
+                "rules": [
+                    {
+                        "rule": "weight",
+                        "mode": "single_vote_weight",
+                        "min": 0,
+                        "max": 10000
+                    },
+                    {
+                        "rule": "authors",
+                        "mode": "allow",
+                        "authors": ["andrejcibik"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "voter": "noisy2",
+        "rulesets": [{"name": "anything","rules": []}]
+    },
+    {
+        "voter": "lenka",
+        "rulesets": [{"name": "anything","rules": []}]
+    },
+    {
+        "voter": "cebula",
+        "rulesets": [
+            {
+                "name": "Na wsparcie polskiej spolecznosci na dlive",
+                "rules": [
+                    {
+                        "rule": "weight",
+                        "mode": "single_vote_weight",
+                        "min": 0,
+                        "max": 2000
+                    },
+                    {
+                        "rule": "tags",
+                        "mode": "any",
+                        "tags": [
+                            "dlive"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "voter": "grecki-bazar-ewy",
+        "rulesets": [
+            {
+                "name": "Na wsparcie polskiej spolecznosci tagu pl-kuchnia",
+                "rules": [
+                    {
+                        "rule": "weight",
+                        "mode": "single_vote_weight",
+                        "min": 0,
+                        "max": 2500
+                    },
+                    {
+                        "rule": "tags",
+                        "mode": "any",
+                        "tags": [
+                            "pl-kuchnia"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
