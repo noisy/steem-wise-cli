@@ -874,6 +874,49 @@
         ]
     },
     {
+        "voter": "grzechotnik",
+        "rulesets": [
+            {
+                "name": "Na wsparcie polskiej spoleczności tagów pl-sztuka, pl-fotografia, pl-architektura",
+                "rules": [
+                    {
+                        "rule": "weight",
+                        "mode": "single_vote_weight",
+                        "min": -1000,
+                        "max": 5000
+                    },
+                    {
+                        "rule": "tags",
+                        "mode": "any",
+                        "tags": [
+                            "pl-sztuka",
+                            "pl-fotografia",
+                            "pl-architektura"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Flagi na #polish",
+                "rules": [
+                    {
+                        "rule": "weight",
+                        "mode": "single_vote_weight",
+                        "min": -1000,
+                        "max": 0
+                    },
+                    {
+                        "rule": "tags",
+                        "mode": "require",
+                        "tags": [
+                            "polish"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "voter": "guiltyparties",
         "rulesets": [
             {
