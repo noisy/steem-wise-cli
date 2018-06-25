@@ -1,5 +1,46 @@
 [
     {
+        "voter": "fervi",
+        "rulesets": [
+            {
+                "name": "Na wsparcie polskiej spolecznosci tagu pl-artykuly",
+                "rules": [
+                    {
+                        "rule": "weight",
+                        "mode": "single_vote_weight",
+                        "min": -1000,
+                        "max": 5000
+                    },
+                    {
+                        "rule": "tags",
+                        "mode": "any",
+                        "tags": [
+                            "pl-artykuly"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Flagi na #polish",
+                "rules": [
+                    {
+                        "rule": "weight",
+                        "mode": "single_vote_weight",
+                        "min": -1000,
+                        "max": 0
+                    },
+                    {
+                        "rule": "tags",
+                        "mode": "require",
+                        "tags": [
+                            "polish"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "voter": "jblew",
         "rulesets": [
             {
@@ -27,7 +68,43 @@
         "voter": "lukmarcus",
         "rulesets": [
             {
-                "name": "Na wsparcie społeczności tagu #polish",
+                "name": "Na wsparcie spolecznosci tagu #polish",
+                "rules": [
+                    {
+                        "rule": "weight",
+                        "mode": "single_vote_weight",
+                        "min": -1000,
+                        "max": 2500
+                    },
+                    {
+                        "rule": "tags",
+                        "mode": "require",
+                        "tags": [
+                            "polish"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Na wsparcie tagu #tematygodnia",
+                "rules": [
+                    {
+                        "rule": "weight",
+                        "mode": "single_vote_weight",
+                        "min": -1000,
+                        "max": 5000
+                    },
+                    {
+                        "rule": "tags",
+                        "mode": "require",
+                        "tags": [
+                            "tematygodnia"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Na wsparcie tagow pl-steem i pl-steemit",
                 "rules": [
                     {
                         "rule": "weight",
@@ -40,6 +117,13 @@
                         "mode": "require",
                         "tags": [
                             "polish"
+                        ]
+                    },
+                    {
+                        "rule": "tags",
+                        "mode": "any",
+                        "tags": [
+                            "pl-steem", "pl-steemit", "steem", "steemit"
                         ]
                     }
                 ]
@@ -71,21 +155,36 @@
                ]
             },
             {
-                "name": "Technocracy boost",
+                "name": "Na start projektu SteemFounders",
                 "rules": [
-                    {   
+                    {
                         "rule": "weight",
                         "mode": "single_vote_weight",
                         "min": 0,
                         "max": 10000
                     },
-                    {   
+                    {
+                        "rule": "tags",
+                        "mode": "any",
+                        "tags": ["steemfounders"]
+                    }
+               ]
+            },
+            {
+                "name": "Technocracy boost",
+                "rules": [
+                    {
+                        "rule": "weight",
+                        "mode": "single_vote_weight",
+                        "min": 0,
+                        "max": 10000
+                    },
+                    {
                         "rule": "authors",
                         "mode": "allow",
                         "authors": ["technocracy"]
                     }
                ]
-
             }
         ]
     },
@@ -167,7 +266,7 @@
                         "rule": "weight",
                         "mode": "single_vote_weight",
                         "min": -1000,
-                        "max": 2500
+                        "max": 5000
                     },
                     {
                         "rule": "tags",
@@ -177,14 +276,32 @@
                         ]
                     }
                 ]
+            },
+            {
+                "name": "Flagi na #polish",
+                "rules": [
+                    {
+                        "rule": "weight",
+                        "mode": "single_vote_weight",
+                        "min": -1000,
+                        "max": 0
+                    },
+                    {
+                        "rule": "tags",
+                        "mode": "require",
+                        "tags": [
+                            "polish"
+                        ]
+                    }
+                ]
             }
         ]
     },
     {
-        "voter": "fervi",
+        "voter": "bowess",
         "rulesets": [
             {
-                "name": "Na wsparcie polskiej spolecznosci tagu pl-artykuly",
+                "name": "Na wsparcie polskiej spolecznosci tagow pl-ksiazki, pl-pisownia, pl-literatura",
                 "rules": [
                     {
                         "rule": "weight",
@@ -196,7 +313,183 @@
                         "rule": "tags",
                         "mode": "any",
                         "tags": [
-                            "pl-artykuly"
+                           "pl-ksiazki",
+                           "pl-pisownia",
+                           "pl-literatura"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Flagi na #polish",
+                "rules": [
+                    {
+                        "rule": "weight",
+                        "mode": "single_vote_weight",
+                        "min": -1000,
+                        "max": 0
+                    },
+                    {
+                        "rule": "tags",
+                        "mode": "require",
+                        "tags": [
+                            "polish"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "voter": "barbarossastudio",
+        "rulesets": [
+            {
+                "name": "Na wsparcie polskiej spolecznosci tagu pl-nauka",
+                "rules": [
+                    {
+                        "rule": "weight",
+                        "mode": "single_vote_weight",
+                        "min": -1000,
+                        "max": 5000
+                    },
+                    {
+                        "rule": "tags",
+                        "mode": "any",
+                        "tags": [
+                           "pl-nauka"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Flagi na #polish",
+                "rules": [
+                    {
+                        "rule": "weight",
+                        "mode": "single_vote_weight",
+                        "min": -1000,
+                        "max": 0
+                    },
+                    {
+                        "rule": "tags",
+                        "mode": "require",
+                        "tags": [
+                            "polish"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "voter": "rafalski",
+        "rulesets": [
+            {
+                "name": "Na wsparcie polskiej spolecznosci tagow pl-nauka, pl-technologia",
+                "rules": [
+                    {
+                        "rule": "weight",
+                        "mode": "single_vote_weight",
+                        "min": -1000,
+                        "max": 5000
+                    },
+                    {
+                        "rule": "tags",
+                        "mode": "any",
+                        "tags": [
+                           "pl-nauka",
+                           "pl-technologia"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Na wsparcie tagow pl-steem i pl-steemit",
+                "rules": [
+                    {
+                        "rule": "weight",
+                        "mode": "single_vote_weight",
+                        "min": -1000,
+                        "max": 10000
+                    },
+                    {
+                        "rule": "tags",
+                        "mode": "require",
+                        "tags": [
+                            "polish"
+                        ]
+                    },
+                    {
+                        "rule": "tags",
+                        "mode": "any",
+                        "tags": [
+                            "pl-steem", "pl-steemit", "steem", "steemit"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Flagi na #polish",
+                "rules": [
+                    {
+                        "rule": "weight",
+                        "mode": "single_vote_weight",
+                        "min": -1000,
+                        "max": 0
+                    },
+                    {
+                        "rule": "tags",
+                        "mode": "require",
+                        "tags": [
+                            "polish"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "voter": "santarius",
+        "rulesets": [
+            {
+                "name": "Na wsparcie polskich tekstow o steem i steemit",
+                "rules": [
+                    {
+                        "rule": "weight",
+                        "mode": "single_vote_weight",
+                        "min": -1000,
+                        "max": 10000
+                    },
+                    {
+                        "rule": "tags",
+                        "mode": "require",
+                        "tags": [
+                            "polish"
+                        ]
+                    },
+                    {
+                        "rule": "tags",
+                        "mode": "any",
+                        "tags": [
+                            "pl-steem", "pl-steemit", "steem", "steemit"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Flagi na #polish",
+                "rules": [
+                    {
+                        "rule": "weight",
+                        "mode": "single_vote_weight",
+                        "min": -1000,
+                        "max": 0
+                    },
+                    {
+                        "rule": "tags",
+                        "mode": "require",
+                        "tags": [
+                            "polish"
                         ]
                     }
                 ]
@@ -213,13 +506,179 @@
                         "rule": "weight",
                         "mode": "single_vote_weight",
                         "min": -1000,
-                        "max": 5000
+                        "max": 3000
                     },
                     {
                         "rule": "tags",
                         "mode": "any",
                         "tags": [
                             "pl-tradycja"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Flagi na #polish",
+                "rules": [
+                    {
+                        "rule": "weight",
+                        "mode": "single_vote_weight",
+                        "min": -1000,
+                        "max": 0
+                    },
+                    {
+                        "rule": "tags",
+                        "mode": "require",
+                        "tags": [
+                            "polish"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "voter": "pkocjan",
+        "rulesets": [
+            {
+                "name": "Na wsparcie polskiej spolecznosci tagu pl-rekodzielo",
+                "rules": [
+                    {
+                        "rule": "weight",
+                        "mode": "single_vote_weight",
+                        "min": -1000,
+                        "max": 5000
+                    },
+                    {
+                        "rule": "tags",
+                        "mode": "any",
+                        "tags": [
+                            "pl-rekodzielo"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Flagi na #polish",
+                "rules": [
+                    {
+                        "rule": "weight",
+                        "mode": "single_vote_weight",
+                        "min": -1000,
+                        "max": 0
+                    },
+                    {
+                        "rule": "tags",
+                        "mode": "require",
+                        "tags": [
+                            "polish"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "voter": "saunter",
+        "rulesets": [
+            {
+                "name": "Na wsparcie polskiej spolecznosci tagow pl-muzyka, pl-podroze, pl-nauka",
+                "rules": [
+                    {
+                        "rule": "weight",
+                        "mode": "single_vote_weight",
+                        "min": -1000,
+                        "max": 5000
+                    },
+                    {
+                        "rule": "tags",
+                        "mode": "any",
+                        "tags": [
+                            "pl-muzyka",
+                            "pl-podroze",
+                            "pl-nauka"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Flagi na #polish",
+                "rules": [
+                    {
+                        "rule": "weight",
+                        "mode": "single_vote_weight",
+                        "min": -1000,
+                        "max": 0
+                    },
+                    {
+                        "rule": "tags",
+                        "mode": "require",
+                        "tags": [
+                            "polish"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "voter": "guiltyparties",
+        "rulesets": [
+            {
+                "name": "Utopian posts",
+                "rules": [
+                    {
+                        "rule": "weight",
+                        "mode": "single_vote_weight",
+                        "min": 0,
+                        "max": 5000
+                    },
+                    {
+                        "rule": "tags",
+                        "mode": "any",
+                        "tags": [
+                            "utopian"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Posts about Canada or Ontario",
+                "rules": [
+                    {
+                        "rule": "weight",
+                        "mode": "single_vote_weight",
+                        "min": 0,
+                        "max": 2000
+                    },
+                    {
+                        "rule": "tags",
+                        "mode": "any",
+                        "tags": [
+                            "canada", "ontario"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "voter": "roxane",
+        "rulesets": [
+            {
+                "name": "Support for French community",
+                "rules": [
+                    {
+                        "rule": "weight",
+                        "mode": "single_vote_weight",
+                        "min": 0,
+                        "max": 5000
+                    },
+                    {
+                        "rule": "tags",
+                        "mode": "any",
+                        "tags": [
+                            "fr"
                         ]
                     }
                 ]
