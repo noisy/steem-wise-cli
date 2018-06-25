@@ -679,7 +679,48 @@
                         "rule": "tags",
                         "mode": "any",
                         "tags": [
-                            "pl-prawo",
+                            "pl-prawo"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Flagi na #polish",
+                "rules": [
+                    {
+                        "rule": "weight",
+                        "mode": "single_vote_weight",
+                        "min": -1000,
+                        "max": 0
+                    },
+                    {
+                        "rule": "tags",
+                        "mode": "require",
+                        "tags": [
+                            "polish"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "voter": "astromaniak",
+        "rulesets": [
+            {
+                "name": "Na wsparcie polskiej spolecznosci tagu pl-kosmos",
+                "rules": [
+                    {
+                        "rule": "weight",
+                        "mode": "single_vote_weight",
+                        "min": -1000,
+                        "max": 5000
+                    },
+                    {
+                        "rule": "tags",
+                        "mode": "any",
+                        "tags": [
+                            "pl-prawo"
                         ]
                     }
                 ]
