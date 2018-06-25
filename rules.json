@@ -622,6 +622,48 @@
         ]
     },
     {
+        "voter": "assayer",
+        "rulesets": [
+            {
+                "name": "Na wsparcie polskiej spolecznosci tagów pl-religia, pl-publikacje",
+                "rules": [
+                    {
+                        "rule": "weight",
+                        "mode": "single_vote_weight",
+                        "min": -1000,
+                        "max": 5000
+                    },
+                    {
+                        "rule": "tags",
+                        "mode": "any",
+                        "tags": [
+                            "pl-religia",
+                            "pl-publikacje"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Flagi na #polish",
+                "rules": [
+                    {
+                        "rule": "weight",
+                        "mode": "single_vote_weight",
+                        "min": -1000,
+                        "max": 0
+                    },
+                    {
+                        "rule": "tags",
+                        "mode": "require",
+                        "tags": [
+                            "polish"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "voter": "guiltyparties",
         "rulesets": [
             {
