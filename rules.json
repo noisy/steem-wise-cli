@@ -917,6 +917,48 @@
         ]
     },
     {
+        "voter": "kolorowa.wedzma",
+        "rulesets": [
+            {
+                "name": "Na wsparcie polskiej spoleczności tagów pl-niepelnosprawnosc, pl-emocjonalnie",
+                "rules": [
+                    {
+                        "rule": "weight",
+                        "mode": "single_vote_weight",
+                        "min": -1000,
+                        "max": 5000
+                    },
+                    {
+                        "rule": "tags",
+                        "mode": "any",
+                        "tags": [
+                            "pl-niepelnosprawnosc",
+                            "pl-emocjonalnie"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Flagi na #polish",
+                "rules": [
+                    {
+                        "rule": "weight",
+                        "mode": "single_vote_weight",
+                        "min": -1000,
+                        "max": 0
+                    },
+                    {
+                        "rule": "tags",
+                        "mode": "require",
+                        "tags": [
+                            "polish"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "voter": "guiltyparties",
         "rulesets": [
             {
