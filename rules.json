@@ -229,7 +229,7 @@
         "voter": "noisy2",
         "rulesets": [
             {
-                "name": "Na wsparcie spoleczności tagu polish",
+                "name": "Na wsparcie spolecznosci tagu polish",
                 "rules": [
                     {
                         "rule": "weight",
