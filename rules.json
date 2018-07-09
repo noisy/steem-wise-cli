@@ -3,7 +3,7 @@
         "voter": "fervi",
         "rulesets": [
             {
-                "name": "Na wsparcie polskiej spoleczności tagu pl-artykuly",
+                "name": "Na wsparcie polskiej spolecznosci tagu pl-artykuly",
                 "rules": [
                     {
                         "rule": "weight",
@@ -68,7 +68,7 @@
         "voter": "lukmarcus",
         "rulesets": [
             {
-                "name": "Na wsparcie spoleczności tagu #polish",
+                "name": "Na wsparcie spolecznosci tagu #polish",
                 "rules": [
                     {
                         "rule": "weight",
@@ -104,7 +104,7 @@
                 ]
             },
             {
-                "name": "Na wsparcie tagów pl-steem i pl-steemit",
+                "name": "Na wsparcie tagow pl-steem i pl-steemit",
                 "rules": [
                     {
                         "rule": "weight",
@@ -256,7 +256,7 @@
         "voter": "cebula",
         "rulesets": [
             {
-                "name": "Na wsparcie polskiej spoleczności na dlive",
+                "name": "Na wsparcie polskiej spolecznosci na dlive",
                 "rules": [
                     {
                         "rule": "weight",
@@ -279,7 +279,7 @@
         "voter": "grecki-bazar-ewy",
         "rulesets": [
             {
-                "name": "Na wsparcie polskiej spoleczności tagu pl-kuchnia",
+                "name": "Na wsparcie polskiej spolecznosci tagu pl-kuchnia",
                 "rules": [
                     {
                         "rule": "weight",
@@ -320,7 +320,7 @@
         "voter": "bowess",
         "rulesets": [
             {
-                "name": "Na wsparcie polskiej spoleczności tagów pl-ksiazki, pl-pisownia, pl-literatura",
+                "name": "Na wsparcie polskiej spolecznosci tagow pl-ksiazki, pl-pisownia, pl-literatura",
                 "rules": [
                     {
                         "rule": "weight",
@@ -363,7 +363,7 @@
         "voter": "barbarossastudio",
         "rulesets": [
             {
-                "name": "Na wsparcie polskiej spoleczności tagu pl-nauka",
+                "name": "Na wsparcie polskiej spolecznosci tagu pl-nauka",
                 "rules": [
                     {
                         "rule": "weight",
@@ -404,7 +404,7 @@
         "voter": "rafalski",
         "rulesets": [
             {
-                "name": "Na wsparcie polskiej spoleczności tagów pl-nauka, pl-technologia",
+                "name": "Na wsparcie polskiej spolecznosci tagow pl-nauka, pl-technologia",
                 "rules": [
                     {
                         "rule": "weight",
@@ -423,7 +423,7 @@
                 ]
             },
             {
-                "name": "Na wsparcie tagów pl-steem i pl-steemit",
+                "name": "Na wsparcie tagow pl-steem i pl-steemit",
                 "rules": [
                     {
                         "rule": "weight",
@@ -519,7 +519,7 @@
         "voter": "hallmann",
         "rulesets": [
             {
-                "name": "Na wsparcie polskiej spoleczności tagu pl-tradycja",
+                "name": "Na wsparcie polskiej spolecznosci tagu pl-tradycja",
                 "rules": [
                     {
                         "rule": "weight",
@@ -560,7 +560,7 @@
         "voter": "pkocjan",
         "rulesets": [
             {
-                "name": "Na wsparcie polskiej spoleczności tagu pl-rekodzielo",
+                "name": "Na wsparcie polskiej spolecznosci tagu pl-rekodzielo",
                 "rules": [
                     {
                         "rule": "weight",
@@ -601,7 +601,7 @@
         "voter": "saunter",
         "rulesets": [
             {
-                "name": "Na wsparcie polskiej spoleczności tagów pl-muzyka, pl-podroze, pl-nauka",
+                "name": "Na wsparcie polskiej spolecznosci tagow pl-muzyka, pl-podroze, pl-nauka",
                 "rules": [
                     {
                         "rule": "weight",
@@ -644,7 +644,7 @@
         "voter": "assayer",
         "rulesets": [
             {
-                "name": "Na wsparcie polskiej spoleczności tagów pl-religia, pl-publikacje",
+                "name": "Na wsparcie polskiej spolecznosci tagow pl-religia, pl-publikacje",
                 "rules": [
                     {
                         "rule": "weight",
@@ -686,7 +686,7 @@
         "voter": "krasnalek",
         "rulesets": [
             {
-                "name": "Na wsparcie polskiej spoleczności tagu pl-prawo",
+                "name": "Na wsparcie polskiej spolecznosci tagu pl-prawo",
                 "rules": [
                     {
                         "rule": "weight",
@@ -727,7 +727,7 @@
         "voter": "astromaniak",
         "rulesets": [
             {
-                "name": "Na wsparcie polskiej spoleczności tagu pl-kosmos",
+                "name": "Na wsparcie polskiej spolecznosci tagu pl-kosmos",
                 "rules": [
                     {
                         "rule": "weight",
@@ -768,7 +768,7 @@
         "voter": "foggymeadow",
         "rulesets": [
             {
-                "name": "Na wsparcie polskiej spoleczności tagów pl-sztuka, pl-fotografia, pl-historia",
+                "name": "Na wsparcie polskiej spolecznosci tagow pl-sztuka, pl-fotografia, pl-historia",
                 "rules": [
                     {
                         "rule": "weight",
@@ -811,7 +811,7 @@
         "voter": "jakipatryk",
         "rulesets": [
             {
-                "name": "Na wsparcie polskiej spoleczności tagu pl-programowanie",
+                "name": "Na wsparcie polskiej spolecznosci tagu pl-programowanie",
                 "rules": [
                     {
                         "rule": "weight",
@@ -852,7 +852,7 @@
         "voter": "jacekw",
         "rulesets": [
             {
-                "name": "Na wsparcie polskiej spoleczności tagów pl-programowanie, pl-sztucznainteligencja",
+                "name": "Na wsparcie polskiej spolecznosci tagow pl-programowanie, pl-sztucznainteligencja",
                 "rules": [
                     {
                         "rule": "weight",
@@ -896,7 +896,7 @@
         "voter": "grzechotnik",
         "rulesets": [
             {
-                "name": "Na wsparcie polskiej spoleczności tagów pl-sztuka, pl-fotografia, pl-architektura",
+                "name": "Na wsparcie polskiej spolecznosci tagow pl-sztuka, pl-fotografia, pl-architektura",
                 "rules": [
                     {
                         "rule": "weight",
@@ -939,7 +939,7 @@
         "voter": "kolorowa.wiedzma",
         "rulesets": [
             {
-                "name": "Na wsparcie polskiej spoleczności tagów pl-niepelnosprawnosc, pl-emocjonalnie",
+                "name": "Na wsparcie polskiej spolecznosci tagow pl-niepelnosprawnosc, pl-emocjonalnie",
                 "rules": [
                     {
                         "rule": "weight",
