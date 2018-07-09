@@ -613,9 +613,9 @@
                         "rule": "tags",
                         "mode": "any",
                         "tags": [
-                            "pl-muzyka",
                             "pl-podroze",
-                            "pl-nauka"
+                            "pl-nauka",
+                            "pl-psychologia"
                         ]
                     }
                 ]
