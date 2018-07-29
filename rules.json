@@ -601,7 +601,7 @@
         "voter": "saunter",
         "rulesets": [
             {
-                "name": "Na wsparcie polskiej spolecznosci tagow pl-muzyka, pl-podroze, pl-nauka",
+                "name": "Na wsparcie polskiej spolecznosci tagow pl-podroze, pl-nauka, pl-psychologia",
                 "rules": [
                     {
                         "rule": "weight",
@@ -1036,6 +1036,45 @@
                         "tags": [
                             "fr"
                         ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "voter": "innuendo",
+        "rulesets": [
+            {
+                "name": "Support for EOS community",
+                "rules": [
+                    {
+                        "rule": "weight",
+                        "mode": "single_vote_weight",
+                        "min": 0,
+                        "max": 10000
+                    },
+                    {
+                        "rule": "tags",
+                        "mode": "require",
+                        "tags": [
+                            "eos"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Support for Tokenika",
+                "rules": [
+                    {
+                        "rule": "weight",
+                        "mode": "single_vote_weight",
+                        "min": 0,
+                        "max": 10000
+                    },
+                    {
+                        "rule": "authors",
+                        "mode": "allow",
+                        "authors": ["tokenika"]
                     }
                 ]
             }
